@@ -1,0 +1,29 @@
+#container{
+	background-color: #d9d9d9;
+	width:700px; height:410px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#header{
+	background-color: #ffff99;
+	height: 60px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#side{
+	background-color: #ffcc66;
+	width:200px; height:300px;
+	float:left;
+	margin-right: 10px;
+}
+
+#content{
+	float: left;
+}
+
+#content2{
+	float: right;
+}
