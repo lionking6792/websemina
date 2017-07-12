@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>J Rabbit</title>
+</head>
+<body>
+    <h1>MY favorite indie band is J Rabbit</h1>
+    <a href = "https://www.google.co.kr/search?q=J+Rabbit&client=ubuntu&hs=qrx&channel=fs&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq0pfN04PVAhWBL5QKHfn_D-sQ_AUIBigB&biw=863&bih=845#imgrc=aXcWsZ3HDHHvcM:"> <img src="./jrabbit.jpg" style = "width:100px; height:100px" alt="invaild image"> </a><br>
+    <br>
+    <ul>
+        <li><a href = "http://music.naver.com/album/index.nhn?albumId=191324" target="_blank">It's Spring</a></li>
+        <li><a href = "http://music.naver.com/album/index.nhn?albumId=318909" target="_blank"> Looking Around</a></li>
+        <li><a href = "http://music.naver.com/album/index.nhn?albumId=183259" target="_blank"> Take One</li>
+    </ul>
+    <ol>
+        <li><a href = "If you love me" target="_blank">If you love me</a></li>
+        <li><a href = "God is Right" target="_blank">God is Right</a></li>
+        <li><a href = "Looking Around" target="_blank">Looking Around</a></li>
+    </ol> 
+</body>
+</html>
