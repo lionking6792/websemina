@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example 02</title>
+</head>
+<body>
+	<h1>heading 1</h1>
+	<h1>heading 1</h1>
+
+	<h2 class="h2">heading 2</h2>
+	<h2 class="h2">heading 2</h2>
+
+	<img id = "img01" src="./image01.jpeg" style="width:100px; height:100px">
+	<img id = "img02" src="./image01.jpeg" style="width:100px; height:100px">
+
+	<script>
+		var a, b, c;
+		
+		a = document.getElementsByTagName("h1");
+		a[0].innerHTML = "New heading 1";
+		b = document.getElementsByClassName("h2");
+		b[1].innerHTML = "New heading 2";
+		b[1].style.color = "blue";
+
+		document.getElementById("img02").src = "./image02.jpg";
+	</script>
+</body>
+</html>
