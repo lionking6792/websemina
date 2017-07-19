@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homework 4</title>
+</head>
+<style>
+	div{
+		width:500px; height: 350px;
+		background-color: #e6e6e6;
+		padding: 20px;
+		text-align: center;
+	}
+	.btn{
+		width:100px; height: 50px;
+		background-color: #8c8c8c;
+		float: left; margin: 10px;
+	}
+
+</style>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$("#btn01").click(function(){
+		$("#btn01").css("background-color", "pink");
+		$("#btn02").css("background-color", "#8c8c8c");
+		$("#btn03").css("background-color", "#8c8c8c");		
+		document.getElementById("img").src = "./cat.jpg";
+	});	
+	$("#btn02").click(function(){
+		$("#btn02").css("background-color", "pink");
+		$("#btn01").css("background-color", "#8c8c8c");
+		$("#btn03").css("background-color", "#8c8c8c");
+		document.getElementById("img").src = "./dog.jpg";
+	});	
+	$("#btn03").click(function(){
+		$("#btn03").css("background-color", "pink");
+		$("#btn01").css("background-color", "#8c8c8c");
+		$("#btn02").css("background-color", "#8c8c8c");
+		document.getElementById("img").src = "./fish.jpg";
+	});	
+	$("#img").mouseenter(function(){
+		$("#container").css("background-color", "#4d4d4d");
+	});
+	$("#img").mouseleave(function(){
+		$("#container").css("background-color", "#e6e6e6");
+	});
+});
+
+</script>
+<body>
+<div id="container">
+	<img id = "img" src="./question.jpeg" style="width:200px; height:200px">
+	<br><br>
+	<div class="btn" id="btn01">cat</div>
+	<div class="btn" id="btn02">dog</div>
+	<div class="btn" id="btn03">fish</div>		
+</div>
+
+
+</body>
+</html>
