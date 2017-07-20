@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ass_2_1.css" />
+	<title>Survey Page</title>
+ 	<style>
+		/*div.default{
+			width:100px; height:100px;
+			border:10px solid blue;
+			padding: 20px; margin: 10px;
+		}*/
+		div.round{
+			border-radius: 10px 10px 10px 10px
+		}
+	</style> 
+</head>
+<body>
+	<div id="container" class="round">
+		<div id="header">
+			<p align = "center">Survey</p>
+		</div>
+		<div id="side">
+			<form>
+				<p>Gender</p>
+				<input type="radio" name="gender" value="a">Female<br>
+				<input type="radio" name="gender" value="b">Male<br>
+				<input type="radio" name="gender" value="c">Not Human<br><br>
+				<p>Likes</p>
+				<input type="checkbox" name="likes" value="d">Calligraphy<br>
+				<input type="checkbox" name="likes" value="e">Music<br>
+				<input type="checkbox" name="likes" value="f">Movie<br>
+			</form>
+		</div>
+		<div id="content">
+			<textarea rows="500" cols="10">answer</textarea><br>
+		</div>
+		<div id="side2">
+			<form>
+				<p>name</p>
+				<input type="text" value=""><br>
+				<p>age</p>
+				<input type="text" value=""><br>
+				<p>address</p>
+				<input type="text" value=""><br>
+				<br><br><br><br><br><br><br>
+				<input type="submit" value="submit answer :)">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
