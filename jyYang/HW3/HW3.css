@@ -1,0 +1,46 @@
+/*made By yjYong*/
+
+#container{
+	width: 700px;
+	padding: 10px;
+	background-color: #c2c9cd;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+}
+
+#header{
+	height: 20px;
+	background-color: #f3d46e;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	clear: left;
+	font-weight: bold;
+}
+
+#leftdiv{
+	width: 220px;
+	height: 250px;
+	margin-top: 10px;
+	margin-right: 5px;
+	background-color: #f1f1f1;
+	float: left;
+	font-weight: bold;
+}
+
+#centerdiv{
+	width: 220px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+#rightdiv{
+	width: 220px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	float: left;
+	font-weight: bold;
+}
