@@ -1,0 +1,33 @@
+#container{
+	background-color: #A6A6A6;
+	width: 600px;
+	padding: 10px;
+	border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
+}
+
+#header{
+	background-color: #F2CB61;
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#side{
+	background-color: #00D8FF;
+	float: left;
+	width: 150px;
+	height: 300px;
+	margin-right: 10px;
+}
+
+#content{
+	float: left;
+	width: 200px;
+}
+#submit{
+	width: 200px;
+	height: 300px;
+	float: left;
+}
