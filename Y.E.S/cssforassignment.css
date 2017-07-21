@@ -1,0 +1,32 @@
+#container{
+	background-color:rgb(221, 175, 204);
+	width:500px;
+	padding:10px;
+	border-radius:10px;
+}
+
+#header{
+	background-color: yellow;
+	height: 100px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#side{
+	background-color: green;
+	float: left;
+	margin: 10px;
+	
+}
+
+#side2{
+	background-color: red;
+	flaot:left;
+	
+}
+
+#side3{
+	background-color: blue;
+	float:right;
+	
+}

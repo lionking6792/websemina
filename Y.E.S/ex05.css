@@ -1,0 +1,30 @@
+#container{
+	background-color:#66ccff;
+	width:500px;
+	padding:10px;
+}
+
+#header{
+	background-color: #d9d9d9;
+	height: 100px;
+}
+
+#side{
+	background-color: #b3b3b3;
+	float: left;
+	width: 150px;
+	height: 300px;
+}
+
+#content{
+	background-color: #ffffff;
+	float: right;
+	width: 350px;
+	height: 300px;
+}
+
+#footer{
+	background-color: #0088ff;
+	clear:left;
+	height: 100px;
+}
