@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> homework 4 </title>
+
+	<link rel='stylesheet' type='text/css' href='week04.css'/>
+	<script src='jquery.js'></script>
+	<script>
+		$(document).ready(function() {
+			$('img.preview').mouseenter(function() {
+				$('#container').css('background-color', '#808080')
+			});
+			$('img.preview').mouseleave(function() {
+				$('#container').css('background-color', '#f6f6f6')
+			});
+
+			$('div.neo').click(function() {
+				$(this).css('background-color', '#ff5a78')
+				$('div.tube').css('background-color', '#5ad9a9')				
+				$('div.apeach').css('background-color', '#5ad9a9')
+				$('img.preview').attr('src', './neo.jpeg')
+			});
+
+			$('div.tube').click(function() {
+				$(this).css('background-color', '#ff5a78')
+				$('div.neo').css('background-color', '#5ad9a9')				
+				$('div.apeach').css('background-color', '#5ad9a9')
+				$('img.preview').attr('src', './tube.png')
+			});
+
+			$('div.apeach').click(function() {
+				$(this).css('background-color', '#ff5a78')
+				$('div.neo').css('background-color', '#5ad9a9')				
+				$('div.tube').css('background-color', '#5ad9a9')
+				$('img.preview').attr('src', './apeach.jpg')
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id='container'>
+		<div id='preview'> <img class='preview' src='./muzi2.jpeg' width='250px' height='250px'></img> </div>
+		<div id='item' class='neo'> neo </div>
+		<div id='item' class='tube'> tube </div>
+		<div id='item' class='apeach'> apeach </div>
+		<div id='footer'></div>
+	</div>
+</body>
+</html>
