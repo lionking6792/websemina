@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./HW4.css">
+<title>HW4</title>
+	<script src="jquery.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$("#img_div").mouseenter(function(){
+				$("#bg_div").css("background-color", "black");
+			});
+			$("#img_div").mouseleave(function(){
+				$("#bg_div").css("background-color", "#c2c9cd");
+			});
+
+			$("#cat_div").click(function(){
+				$("div.change_btn").css("background-color", "#f1f1f1");
+				$("#div_img").attr("src", "./cat.jpg");
+				$("#cat_div").css("background-color", "pink");
+			});
+			$("#dog_div").click(function(){
+				$("div.change_btn").css("background-color", "#f1f1f1");
+				$("#div_img").attr("src", "./dog.jpg");
+				$("#dog_div").css("background-color", "pink");
+			});
+			$("#rabbit_div").click(function(){
+				$("div.change_btn").css("background-color", "#f1f1f1");
+				$("#div_img").attr("src", "./rabbit.jpg");
+				$("#rabbit_div").css("background-color", "pink");
+			});
+		});
+	</script>
+</head>
+<!--made By yjYong-->
+
+<body>
+	<div id="bg_div">
+		<div id="img_div" >
+			<img class="default" id="div_img" src="./questions.jpg">
+		</div>
+
+		<div class="change_btn" id="cat_div">
+			Cat
+		</div>
+
+		<div class="change_btn" id="dog_div">
+			Dog
+		</div>
+
+		<div class="change_btn" id="rabbit_div">
+			Rabbit
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+img.default{
+	width: 100%;
+	height: 100%;
+}
+
+#bg_div{
+	width: 480px;
+	background-color: #c2c9cd;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+}
+
+#img_div{
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-right: 150px;
+	clear: left;
+}
+
+#cat_div{
+	width: 140px;
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	float: left;
+}
+
+#dog_div{
+	width: 140px;
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	float: left;
+}
+
+#rabbit_div{
+	width: 140px;
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	float: left;
+}
