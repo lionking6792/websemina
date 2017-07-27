@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment_4</title>
+</head>
+<style>
+	div{
+		width:500px; height: 350px;
+		background-color: #e6e6e6;
+		padding: 20px;
+		text-align: center;
+	}
+	.btn{
+		width:100px; height: 50px;
+		background-color: #8c8c8c;
+		float: left; margin: 10px;
+	}
+
+</style>
+<script src="jQuery.js"></script>
+<script>
+$(document).ready(function(){
+	$("#btn01").click(function(){
+		$("#btn01").css("background-color", "pink");
+		$("#btn02").css("background-color", "#8c8c8c");
+		$("#btn03").css("background-color", "#8c8c8c");		
+		document.getElementById("img").src = "./apple.jpeg";
+	});	
+	$("#btn02").click(function(){
+		$("#btn02").css("background-color", "pink");
+		$("#btn01").css("background-color", "#8c8c8c");
+		$("#btn03").css("background-color", "#8c8c8c");
+		document.getElementById("img").src = "./grape.jpeg";
+	});	
+	$("#btn03").click(function(){
+		$("#btn03").css("background-color", "pink");
+		$("#btn01").css("background-color", "#8c8c8c");
+		$("#btn02").css("background-color", "#8c8c8c");
+		document.getElementById("img").src = "./chery.jpeg";
+	});	
+	$("#img").mouseenter(function(){
+		$("#container").css("background-color", "#4d4d4d");
+	});
+	$("#img").mouseleave(function(){
+		$("#container").css("background-color", "#e6e6e6");
+	});
+});
+
+</script>
+<body>
+<div id="container">
+	<img id = "img" src="./fruit.jpeg" style="width:200px; height:200px">
+	<br><br>
+	<div class="btn" id="btn01">cat</div>
+	<div class="btn" id="btn02">dog</div>
+	<div class="btn" id="btn03">fish</div>		
+</div>
+
+
+</body>
+</html>

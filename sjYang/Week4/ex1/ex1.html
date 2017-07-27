@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>example 01</title>
+</head>
+<body>
+
+	<p id = "test01"></p>
+	<p id = "test02"></p>
+	<p id = "test03"></p>
+	<p id = "test04"></p>
+	<p id = "test05"></p>
+
+	<script>
+	//this is comment
+	/*this is comment too*/
+	var x, y, z;
+	var a, b, c, d, e;
+	a = 1;
+	b = 2;
+	c = "hello";
+	d = " world";
+	e = 0;
+
+	x = a + b;
+	y = c + d;
+	z = "hahaha" + x;
+
+	document.getElementById("test01").innerHTML = x;
+	document.getElementById("test02").innerHTML = y;
+	document.getElementById("test03").innerHTML = z;
+	
+	testFunc01(7,3);
+	e += testFunc02(7,3);
+	document.getElementById("test05").innerHTML = e;
+
+	function testFunc01(x, y){
+		document.getElementById("test04").innerHTML = x+y;
+	}
+
+	function testFunc02(x,y){
+		return x * y;
+	}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example 03</title>
+
+	<script src = "jQuery.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$("div.test01").html("test<br>test<br>test");
+			$("div.test01").css("background-color", "pink");
+		});
+
+		$("p").click(function(){
+			$(this).hide(555);
+
+		});
+
+		$("div.test02").dblclick(function(){
+			$(this).toggleClass("test03");
+		});
+	});
+	</script>
+
+	<style>
+	div.test01{
+		background-color: grey;
+		width : 100px; height : 100px;
+	}
+	div.test02{
+		background-color : #99ffcc;
+		width : 200px; height : 200px;
+	}
+	div.test03{
+		background-color : #ff99ff;
+		width : 200px; height : 200px;
+		}
+		</style>
+
+	</haad>
+	<body>
+		<p>paragraph 1</p>
+		<p>paragraph 2</p>
+		<p>paragraph 3</p>
+		<div class = "test01">test</div>
+		<button id = "btn1">test</button>
+		<div class="test02">doubleclick me!!</div>
+	</body>
+	</html>
