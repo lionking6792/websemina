@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./ex4.1.css">
+<title>Homework4</title>
+
+<script src = "jquery.js"></script>
+
+<script>
+$(document).ready(function(){
+	$("#big_pic").mouseenter(function(){
+		$("#bg_big_pic").css("background-color", "#212121");
+	});
+	$("#big_pic").mouseleave(function(){
+		$("#bg_big_pic").css("background-color", "#EAEAEA");
+	});
+	$("#cat_bnt").click(function(){
+		$("#cat_bnt").css("background-color", "pink");
+		$("#div_img").attr("src", "./cat.jpg");
+		$("div.change_btn").css("background-color", "#EAEAEA");
+	});
+	$("#dog_bnt").click(function(){
+		$("#dog_bnt").css("background-color", "pink");
+		$("#div_img").attr("src", "./dog.jpeg");
+		$("div.change_btn").css("background-color", "#EAEAEA");
+	});
+	$("#pig_bnt").click(function(){
+		$("#cpig_bnt").css("background-color", "pink");
+		$("#div_img").attr("src", "./pig.jpg");
+		$("div.change_btn").css("background-color", "#EAEAEA");
+	});
+});
+</script>
+
+</head>
+
+
+<body>
+	<div id = "bg_big_pic">
+		<div id = "big_pic">
+			<img class = "default" id = "div_img" src="./QA.jpg">
+		</div>
+
+		<div class= "change_btn" id= "cat_bnt">
+			cat
+		</div>
+
+		<div class= "change_btn" id= "dog_bnt">
+			dog
+		</div>
+
+		<div class= "change_btn" id= "pig_bnt">
+			pig
+		</div>
+</div>
+</body>
+</html>
