@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hw-4</title>
+	<link rel="stylesheet" type="text/css" href="./hw-4.css">
+</head>
+	<script src="./jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#image").mouseenter(function(){
+			$("#container").css("background-color","#cceeff");
+		});
+		$(("#image").mouseleave(function(){
+			$("#container").css("background-color","lightgrey");
+		});
+		$("#cat").click(function(){			
+			$("div.btn").css("background-color","grey");
+			$("#cat").css("background-color","pink");
+			document.getElementById("image").src = "./cat.jpeg";
+		});
+		$("#dog").click(function(){			
+			$("div.btn").css("background-color","grey");
+			$("#dog").css("background-color","pink");
+			document.getElementById("image").src = "./dog.jpeg";
+		});
+		$("#fish").click(function(){			
+			$("div.btn").css("background-color","grey");
+			$("#fish").css("background-color","pink");
+			document.getElementById("image").src = "./fish.jpeg";
+		});
+		$("#reset").click(function(){			
+			$("div.btn").css("background-color","grey");
+			$("#reset").css("background-color","pink");
+			document.getElementById("image").src = "./question_mark.jpeg";
+		});
+	});
+	</script>
+<body>
+	<div id="container">
+		<img id="image" src="./question_mark.jpeg" style="width:230px; height:230px">
+		<br><br>
+			<div class="btn" id="cat">cat</div>
+			<div class="btn" id="dog">dog</div>
+			<div class="btn" id="fish">fish</div>
+			<div class="btn" id="reset">reset</div>
+	</div>
+</body>
+</html>
