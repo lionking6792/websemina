@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>homework4</title>
+	<link rel="stylesheet" type="text/css" href="./hw4.css">
+	<script src="jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#imagediv").mouseenter(function(){
+			$("#container").css("background-color", "darkgray")
+		});
+		$("#imagediv").mouseleave(function(){
+			$("#container").css("background-color","d9d9d9")
+		});
+
+		$("#btn1").click(function(){
+			$("div.btn").css("background-color","ffb2d9");
+			$("#img01").attr("src","./cat1.jpeg");
+			$("#btn1").css("background-color","hotpink");
+		});
+		$("#btn2").click(function(){
+			$("div.btn").css("background-color","ffb2d9");
+			$("#img01").attr("src","./cat2.jpeg");
+			$("#btn2").css("background-color","hotpink");
+		});
+		$("#btn3").click(function(){
+			$("div.btn").css("background-color","ffb2d9");
+			$("#img01").attr("src","./cat3.jpeg");
+			$("#btn3").css("background-color","hotpink");
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="imagediv">
+			<img class="img1" id="img01"src="./joongki.jpeg">
+		</div>
+		<div class="btn" id="btn1">cat1</div>
+		<div class="btn" id="btn2">cat2</div>
+		<div class="btn" id="btn3">cat3</div>
+	</div>
+</body>
+</html>
+
