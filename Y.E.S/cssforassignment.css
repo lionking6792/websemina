@@ -1,15 +1,16 @@
 #container{
 	background-color:rgb(221, 175, 204);
-	width:500px;
+	width:600px;
+	height:440px;
 	padding:10px;
 	border-radius:10px;
 }
 
 #header{
 	background-color: yellow;
-	height: 100px;
-	margin-bottom: 10px;
-	padding: 10px;
+	height: 80px;
+	text-align:center;
+	padding-top: 50px;
 }
 
 #side{
@@ -21,7 +22,7 @@
 
 #side2{
 	background-color: red;
-	flaot:left;
+	float:left;
 	
 }
 
